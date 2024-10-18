@@ -22,8 +22,8 @@
 #         elif opponent_history[-1] == 'P':
 #             prediction = random.choice(['R', 'S'])        
     
-#     ideal_response = {'P': 'S', 'R': 'P', 'S': 'R'}
-#     guess = ideal_response[prediction]
+#     ideal_response = {'P': 'S', 'R': 'P', 'S': 'R'} 
+#     guess = ideal_response[prediction] # does better if guess = prediction
 
 #     return guess
 
