@@ -32,12 +32,14 @@ To test your code, play a game with the play function. The play function takes f
     the number of games to play in the match
     an optional argument to see a log of each game. Set it to True to see these messages.
 
+```
 play(player1, player2, num_games[, verbose])
+```
 
 For example, here is how you would call the function if you want player and quincy to play 1000 games against each other and you want to see the results of each game:
-
+```
 play(player, quincy, 1000, verbose=True)
-
+```
 ### Testing
 
 The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience. If you uncomment the last line in main.py, the tests will run automatically whenever you run python main.py in the console.
